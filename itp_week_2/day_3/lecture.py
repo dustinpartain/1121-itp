@@ -73,3 +73,35 @@ print(myNumber)
 
 #This is the RELATIVE path to this file on my computer:
 #  day_3/lecture.py
+
+#----------MODULES------------
+# The modules that come with Python are called the standard library, but you can also install third-party modules using the pip tool.
+
+#You can import modules and get access to new functions.
+
+#---------USING PATHS TO CONNECT THINGS----------
+#Absolute Path: Absolute path specifies the location from the root directory.
+
+#This is the ABSOLUTE path to this file on my computer:
+#  /Users/tylerpritchard/Desktop/VIT/day_3/lecture.py
+
+#Relative Path: A relative path is related to the current directory
+
+#This is the RELATIVE path to this file on my computer:
+#  day_3/lecture.py
+
+
+#--------------IMPORTING MODULES---------
+#Use the "import" keyword to bring outside functions/programs into the file you are currently working on.  For example, to add additional math functionality to your file, import the "math" module.
+import math
+
+#Now you can use math functions that were not previously available, like:
+
+num1 = math.sqrt(16)
+print("num1 is ", num1)
+
+num2 = math.pi
+print("num2 is ", num2)
+
+tip = math.sinh(num2)
+print(tip)

@@ -1,11 +1,10 @@
-# Intro To Python: Week 2 Day 1
-Using lists & dictionaries
-MOdule
-Modularitiy/black box/separation of concerns
+# Intro To Python: Week 2 Day 3
+# Functions II
 
 ## Terminal Learning Objectives
 - Understand how to access data values using functions
 - Understand modularity in programming
+- Understand that modules are files containing functions which can be imported and used to empower your functions/applications
 - Understand how to use functions & data structures to write modular code
 - Understand what imported modules are
 
@@ -13,15 +12,17 @@ Modularitiy/black box/separation of concerns
 - Pass lists and dictionaries as arguments
 - Access values from a list
 - Access values from a dictionary
+- Import and use Math Module
 - Use an imported module for mathematical functions
 
 ### Topics/Series
-- Functions
-- Lists & Dictionaries
-- Modularity
-- Modules
+- Functions II
+    - Modularity
+    - Modules
 
-### Exercise
+## Practice
+
+### Day 3 Exercise
 
 ### Resources
 [Automate the Boring Stuff](https://automatetheboringstuff.com/chapter3/)

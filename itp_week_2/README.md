@@ -2,11 +2,11 @@
 
 ## This Week's Course Content
 - Dictionary
+- Tuples
+- Sets
 - Functions
 - Scope
 - Modularity
-- Tuples
-- Sets
 
 
 ## Resources
