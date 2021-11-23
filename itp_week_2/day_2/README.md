@@ -1,5 +1,5 @@
-# Intro To Python: Week 2 Day 1
-
+# Intro To Python: Week 2 Day 2
+# Functions I
 
 ## Terminal Learning Objectives
 - Understand what a function is
@@ -13,11 +13,11 @@
 - Run funtions using varibles from the global scope
 - Run functions using a data structure as an argument
 
-## Day 3 Exercise
+## Day 2 Exercise
 - Creating and executing functions
 
 ### Topics/Series
-Functions
+- Functions I
     -built-in functions
     -custom/user-built functions
     -arguments
