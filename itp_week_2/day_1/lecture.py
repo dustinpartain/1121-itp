@@ -254,6 +254,30 @@ for x in some_dict.keys():
 for x, y in some_dict.items():
   print(x, y)
 
+# NESTED DICTIONARIES 
+# Dictionaries can contain other dictionaries, which can contain other dictionaries, which can contain other dictionaries...
+myfamily = {
+  "child1" : {
+    "name" : "Jim",
+    "year" : 1997
+  },
+  "child2" : {
+    "name" : "Jane",
+    "year" : 2010
+  },
+  "child3" : {
+    "name" : "John",
+    "year" : 2004
+  }
+}
+#  In order to access a value within a dictionary that is within another dictionary, we simply chain them together like so:
+print(myfamily["child1"]["name"])
+
+#  Here is one way to access values to create your own data structures 
+for i in myfamily:
+  print(myfamily[i].values())
+
+
 ######################
 # TUPLES AND SETS
 ######################
