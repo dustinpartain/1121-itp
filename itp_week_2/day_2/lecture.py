@@ -1,6 +1,15 @@
 # ITP Week 2 Day 2 Lecture
 
+
+#######################
+#USER DEFINED FUNCTIONS
+#######################
+# https://www.w3schools.com/python/python_functions.asp
+
 # "Computer functions are similar to math functions in that they may reference parameters, which are passed, or input into the function."
+
+# USING THE 'DEF' KEYWORD
+# https://www.w3schools.com/python/ref_keyword_def.asp
 
 #Use the "def" keyword to define (create) a new function.  Give the function a name, followed by single braces, and a colon.  Indent the following line to run the code in the function body.  The following code will create a function named myNewFunction, and it will print the words "Hello World"
 
@@ -55,7 +64,13 @@ def sadness():
 
 #This is because my_local_variable is contained INSIDE the function sadness(), and is therefore not available to any functions outside of that SCOPE.
 
-#Global keyword is a keyword that allows a user to modify a variable outside of the current scope. It is used to create global variables from a non-global scope i.e inside a function. Global keyword is used inside a function only when we want to do assignments or when we want to change a variable. Global is not needed for printing and accessing.
+##############################
+# THE PYTHON 'GLOBAL' KEYWORD
+#############################
+# https://docs.python.org/3/reference/simple_stmts.html#the-global-statement
+# https://www.w3schools.com/python/ref_keyword_global.asp
+
+# The 'global' keyword is a keyword that allows a user to modify a variable outside of the current scope. It is used to create global variables from a non-global scope i.e inside a function. Global keyword is used inside a function only when we want to do assignments or when we want to change a variable. Global is not needed for printing and accessing.
 
 # Rules of global keyword:
 
@@ -72,3 +87,10 @@ def global_key():
 
 global_key()
 print(x)
+
+
+# WHAT IS GLOBAL KEYWORD IN PYTHON?
+# "Global keyword is a keyword that allows a user to modify a variable outside of the current scope. It is used to create global variables from a non-global scope i.e inside a function. Global keyword is used inside a function only when we want to do assignments or when we want to change a variable. May 31, 2020" -geeksforgeeks.org
+
+# SHOULD YOU USE GLOBAL IN PYTHON?
+# "The way Python uses global and local variables is maverick. ... In most cases where you are tempted to use a global variable, it is better to utilize a parameter for getting a value into a function or return a value to get it out. Like in many other program structures, Python also imposes good programming habit by design.Aug 16, 2021"  -python-course.eu

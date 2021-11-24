@@ -1,8 +1,10 @@
 # ITP Week 2 Day 1 Lecture
 
-# Day 4 Exercise
+# Review: Day 4 Exercise
 
+#############################
 # PYTHON COLLECTIONS (ARRAYS)
+#############################
 
 # There are four collection data types in the Python programming language:
 
@@ -11,14 +13,16 @@
 # - Tuples: covered later this week
 # - Sets: covered later this week
 
+#########
 # LIST
-
+#########
 # Lists are used to store multiple items in a single variable.
 # Lists are created using square brackets:
 # List items are ordered, changeable, and allow duplicate values.
 
+#################
 # DICTIONARY
-
+#################
 # Dictionaries are used to store data values in key:value pairs.
 # A dictionary is a collection which is ordered*, changeable and does not allow duplicates.
 
@@ -250,6 +254,50 @@ for x in some_dict.keys():
 for x, y in some_dict.items():
   print(x, y)
 
-# Exercise
+# NESTED DICTIONARIES 
+# Dictionaries can contain other dictionaries, which can contain other dictionaries, which can contain other dictionaries...
+myfamily = {
+  "child1" : {
+    "name" : "Jim",
+    "year" : 1997
+  },
+  "child2" : {
+    "name" : "Jane",
+    "year" : 2010
+  },
+  "child3" : {
+    "name" : "John",
+    "year" : 2004
+  }
+}
+#  In order to access a value within a dictionary that is within another dictionary, we simply chain them together like so:
+print(myfamily["child1"]["name"])
 
-# Git Push
+#  Here is one way to access values to create your own data structures 
+for i in myfamily:
+  print(myfamily[i].values())
+
+
+######################
+# TUPLES AND SETS
+######################
+# - Tuple: Ordered, unchangeable, and INDEXED Allows duplicate members.
+#SYNTAX:
+gardenPlants = ("lettuce", "raspberry", "cauliflower")
+
+#Access item:
+print(gardenPlants[1])
+
+# - Set: Sets are used to store multiple items in a single variable.  Unordered and unindexed. No duplicate members.  
+#SYNTAX:
+
+myImmediateFamily = {"Jane", "John", "Jim", "Jen"}
+
+#You must use a for-in loop to access items.
+for member in myImmediateFamily:
+    print(member)
+
+#You CAN add values to a set using the add() method
+myImmediateFamily.add("Adopted")
+
+print(myImmediateFamily)

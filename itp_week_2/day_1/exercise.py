@@ -21,3 +21,27 @@ for item in inventory:
 
 for item in inventory:
     # use an if statement to check if the value is 0 and then remove it
+
+#If your group has completed the above exercise, move on to tuples, sets and nested dictionaries
+
+dogs = {
+    "large": {
+        "Dozer": {
+            "breed": "Shepherd"
+        },
+        "Tank": {
+            "breed": "Mastif"
+        }
+    },
+    "small": {
+        "Cujo": {
+            "breed": "Bichon Frise"
+        },
+        "Batman": {
+            "breed": "Corgi"
+        }
+    }
+}
+
+# Loop through the dogs dictionary and create a SET of dog names.
+# Loop through the dogs and create a TUPLE combining each dog's name with its breed.
