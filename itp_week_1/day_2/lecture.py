@@ -38,8 +38,8 @@
 
 # you can always get the type of the variable with type()
 print(type("Hello"))
-exampleInt = 34
-print(type(exampleInt))
+example_int = 34
+print(type(example_int))
 
 # NUMBERS
 # - int: or integer, is a whole number, positive or negative, without decimals, of unlimited length.
@@ -115,10 +115,10 @@ print(j) # "1230.453454634565"
 # +	        Addition	    x + y
 # -	        Subtraction	    x - y
 # *	        Multiplication	x * y
-# /	        Division	    x / y
+# /	        Division	    x / y (gives you answer with decimals)
 # %	        Modulus	        x % y
 # **	    Exponentiation	x ** y
-# //	    Floor division	x // y
+# //	    Floor division	x // y (gives answer in whole number)
 
 # we can assign variables to the evaluation of arithmetic operators
 
@@ -169,7 +169,7 @@ print(10 < 9)
 
 # We can also use the bool() function
 # which allows you to evaluate any value,
-# and give you True or False in return
+# and give you "kind of" True or "kind of" False in return
 
 print(bool("Hello")) # True
 print(bool(15)) # True

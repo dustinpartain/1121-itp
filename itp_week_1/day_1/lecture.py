@@ -14,7 +14,7 @@
 # Windows: Ctrl + /
 # Mac: Cmd + /
 # Now let's prevent the code below from running by commenting it out!
-eat_bad_pizza()
+# eat_bad_pizza()
 
 ##################################
 # dont worry about the error     #
@@ -35,7 +35,7 @@ eat_bad_pizza()
 
 # Replace CHANGE_ME to your favorite color and run the code in your terminal.
 
-print("CHANGE_ME")
+# print("BABY BLUE")
 
 # Currently what we're printing is just a string.
 
@@ -80,7 +80,7 @@ actual_code()
 
 # Unlike other programming languages, it doesnt not require a command for declaring a variable.
 
-my_variable = "a string"
+# my_variable = "a string"
 
 # Rules for variable names
 # must start with a letter or the underscore character
@@ -92,11 +92,11 @@ my_variable = "a string"
 # ie. my favorite band
     # 1. MyFavoriteBand - Pascal Case
     # 2. myFavoriteBand - Camel Case
-    # 3. my_favorite_band - Snake Case
+    # 3. my_favorite_band - Snake Case (most used in Python)
 
 # Now, instead of printing string literals, we can print variables which store the string!
 
-name = "Danny"
+name = "Dustin"
 
 # Change the name above to your name and uncomment the line below!
 
@@ -108,7 +108,7 @@ print("Hello my name is " + name)
 
 # INPUT
 
-# A native python function like print which takes in an argument.
+# A native python function like print which takes in an argument. Native are functions provided by the python language.
 # The argument is a string that acts as a prompt which is printed.
 # the function waits for the user input.
 

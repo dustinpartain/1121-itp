@@ -54,6 +54,7 @@ list_3 = [True, False, False]
 
 list_4 = ["abc", 34, True, 40, "male"]
 list_5 = [["John", "Smith", 1,2,5,345,34,True,"asdoij"], ["Jane", "Doe"], 123, False]
+print(list_5[0][1]) # should return Smith
 
 # type()
 # From Python's perspective, lists are defined as objects with the data type 'list':
