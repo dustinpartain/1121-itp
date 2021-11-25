@@ -8,10 +8,11 @@
 
 # There are four collection data types in the Python programming language:
 
-# - List:       ordered and changeable.     Allows duplicate members.
 # - Dictionary: ordered* and changeable.    No duplicate members.
-# - Tuples: covered later this week
+# - List:       ordered and changeable.     Allows duplicate members.
+
 # - Sets: covered later this week
+# - Tuples: covered later this week
 
 #########
 # LIST
@@ -133,6 +134,8 @@ car = {
 "model": "Mustang",
 "year": 1964
 }
+
+car["brand"] = "Explorer"
 
 x = car.keys()
 y = car.values()
@@ -259,7 +262,11 @@ for x, y in some_dict.items():
 myfamily = {
   "child1" : {
     "name" : "Jim",
-    "year" : 1997
+    "year" : 1997,
+    "sports": {
+      "baseball": True,
+      "basketball": False
+    }
   },
   "child2" : {
     "name" : "Jane",
@@ -271,11 +278,11 @@ myfamily = {
   }
 }
 #  In order to access a value within a dictionary that is within another dictionary, we simply chain them together like so:
-print(myfamily["child1"]["name"])
+print(   myfamily["child1"]["name"]    )
 
 #  Here is one way to access values to create your own data structures 
-for i in myfamily:
-  print(myfamily[i].values())
+for child in myfamily:
+  print(myfamily[child].values())
 
 
 ######################
