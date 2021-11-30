@@ -11,7 +11,17 @@ myToons = {
 
 def pickToon(toons):
     select = input("Which character? \n")
+    
+    
+    
+    
+    
     for toon in toons:
+        
+        
+        
+        
+        
         if toons[toon] == select:
             print(select + " FTW! \n")
             break #skips over the else statement
@@ -20,7 +30,11 @@ def pickToon(toons):
         else:
             print("Wrong character")
 
-#pickToon(myToons)
+
+
+
+
+pickToon(myToons)
 
 #In Python, Pass, Continue and break are used to loops. Though continue and break are similar to that of other traditional programming languages, pass is a unique feature available in python. break - Terminates the loop, after its invocation. continue - Skips the current loop, and continues perform the next consecutive loops. pass - Does nothing
 
@@ -36,7 +50,7 @@ def startGame():
     intro()
     pickToon(myToons)
 
-startGame()
+#startGame()
 
 # The Python return statement is a key component of functions and methods. You can use the return statement to make your functions send Python objects back to the caller code. These objects are known as the function’s return value. You can use them to perform further computation in your programs.  The Python return statement is a special statement that you can use inside a function or method to send the function’s result back to the caller. A return statement consists of the return keyword followed by an optional return value.
 
@@ -48,7 +62,7 @@ def add(a, b):
     return a + b
 
 myNumber = add(5, 9)
-print(myNumber)
+#print(myNumber)
 
 # A Python function will always have a return value. There is no notion of procedure or routine in Python. So, if you don’t explicitly use a return value in a return statement, or if you totally omit the return statement, then Python will implicitly return a default value for you. That default return value will always be None.
 
