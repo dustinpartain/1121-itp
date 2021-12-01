@@ -26,23 +26,27 @@ my_old_function()
 
 #An argument represents the value that you pass to a procedure parameter when you call the procedure. The calling code supplies the arguments when it calls the procedure.
 
+## Look up inside-out understanding of parameter
+
 def my_new_function(parameter):
     print(parameter)
 
 my_new_function("This is my Argument")
 
-#Functions can have multiple parameters.
+#Functions can have multiple parameters. Generally don't want to go above 3 parameters. Can do either of following prints.
 
 def multi_parameter(param1, param2, param3):
     print("My name is " + param1 + " " + param2 + ", and I live in " + param3 + ".")
-
+    print(f"My name is {param1} {param2} and I live in {param3}.")
 multi_parameter("Tyler", "Pritchard", "Oakland")
+
+
 
 #Function parameters can be any data type, including numbers, booleans, dictionaries, and even other functions!  You can assign your data & functions to different variables, and then tie the varables together in different ways for endless computing possibilities.  Large applications are just many functions contained within different files, all connected in some way and all communicating with each other.  
 
 #The concept of scope rules how variables and names are looked up in your code. It determines the visibility of a variable within the code. The scope of a name or variable depends on the place in your code where you create that variable.
 
-#Global Scope: A variable in the global scope exists outside of functions, and is therefore available to all functions.
+#Global Scope: A variable in the global scope exists outside of functions, and is therefore available to all and/or many different functions.
 
 my_global_variable = "Joy to the world"
 

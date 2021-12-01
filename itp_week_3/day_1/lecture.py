@@ -1,7 +1,17 @@
 # ITP Week 3 Day 1 Lecture
 
+## Dustin Notes
+## 2 stages of functions
 
+## first: declaring (def)
+## second: invocation (calling)
 
+## different types of function
+
+## void
+## return (with or without parameters)
+
+## modules = reuseable 'packages' of code that can be pulled into own code... i.e. Python package of "Math module"
 
 #------------PIP-----------
 
